@@ -1,2 +1,2 @@
 # bin_packing
-container loading project
+A container loading project
