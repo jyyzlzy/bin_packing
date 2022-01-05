@@ -385,7 +385,7 @@ public class Batch_Placement {
 					else {
 						v = (int) Math.floor((W-n*l)/w); // in general, v is limited by n
 					}
-					for (u=(int)Math.ceil(m*w/l); u<u_max; u++) {
+					for (u=(int)Math.ceil(m*w/l); u<=u_max; u++) {
 						if (v == 0) {
 							u = 0;
 							x = (int) Math.floor((L-m*w)/w); // in this special case, x is limited by n
